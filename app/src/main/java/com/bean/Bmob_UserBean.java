@@ -6,7 +6,7 @@ import cn.bmob.v3.BmobObject;
 
 public class Bmob_UserBean extends BmobObject {
     private String username;
-
+private int i;
     public Bmob_UserBean() {
 
        this.setTableName("user");
